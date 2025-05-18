@@ -1,12 +1,15 @@
 package se.jolod;
 
-import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.DisplayName;
 
-class MainTest {
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+final class MainTest {
     @Test
-    @DisplayName("WIP: Testing the setup.")
-    void aPassingTest() {
-        assertTrue(true,"True is true.");
+    @DisplayName("Remove me.")
+    void test1() {
+        assertTrue(true);
     }
 }
